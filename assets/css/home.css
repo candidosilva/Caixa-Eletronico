@@ -1,0 +1,203 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    overflow: hidden;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+}
+
+header .bem-vindo {
+    color:rgb(227, 235, 255);
+    padding-left:20px;
+    padding-top:20px;
+    font-size:20px;
+    font-weight:  bold ;
+}
+.img img {
+    width:125px;
+    height:auto;
+    margin-left:60px;
+}
+
+header .suport {
+    color: rgb(116, 155, 255);
+    padding-right:20px;
+    padding-top:20px;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.corpo {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:calc(100vh - 200px);
+}
+
+.corpo .text {
+    color:rgb(32, 56, 121);
+    font-size:45px;
+
+
+}
+
+.infobox {
+    display:flex;
+    height:400px;
+    width:600px;
+    margin-top:20px;
+justify-content: center;
+align-items: center;
+}
+
+.infobox .saldo {
+    background-color:#F3F5F3;
+    border-radius: 10px;
+    width:250px;
+    height:100%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 3px #7b8fb1;
+}
+
+.infobox .saldo h1 {
+    margin-top:20px;
+    color:rgb(32, 56, 121);
+}
+
+.infobox .saldo p {
+    margin-top:100px;
+    color: rgb(62, 105, 221);
+    font-size:40px;
+}
+.saque-deposito {
+    width:250px;
+    height:400px;
+    display:flex;
+    flex-direction:column;
+}
+.saque {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#F3F5F3;
+    border-radius: 10px;
+    width: 200px;
+    margin-left:20px;
+    flex:1;
+    color:rgb(32, 56, 121);
+    text-align: center;
+    margin-bottom:10px;
+    box-shadow: 0px 0px 15px 3px #7b8fb1;
+
+}
+
+.saque-deposito a {
+    text-decoration: none;
+}
+
+.saque-deposito .saque h1 {
+    color:rgb(32, 56, 121);
+}
+
+.saque img {
+    margin:30px;
+    width:70px;
+    height:auto;
+}
+
+.deposito {
+    background-color:#F3F5F3;
+    border-radius: 10px;
+    width:200px;
+    margin-left:20px;
+    flex:1;
+    color:rgb(32, 56, 121);
+    text-align: center;
+    margin-top:10px;
+    box-shadow: 0px 0px 15px 3px #7b8fb1;
+
+}
+
+.saque-deposito .deposito h1 {
+    margin-top:20px;
+    color:rgb(32, 56, 121);
+}
+
+.deposito img {
+    margin:30px;
+    width:70px;
+    height:auto;
+}
+
+/* FOOTER */
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    height:100px;
+}
+
+.conta {
+    color:rgb(32, 56, 121);
+    margin-left:20px;
+    font-size:20px;
+    font-weight:  bold ;
+    margin-top:25px;
+}
+
+.data {
+    color:rgb(32, 56, 121);
+    font-size:20px;
+    font-weight:  bold ;
+    line-height: 100px;
+    height:100px;
+    width:100px;
+}
+
+.sair {
+    background: linear-gradient(to right, rgb(0, 132, 255), blue );
+    height:50px;
+    width: 100px;
+    border-radius:20px;
+    color:rgb(32, 56, 121);
+    margin-right:20px;
+    display:block;
+    margin-top:25px;
+}
+
+.sair a {
+    font-size:20px;
+    font-weight:  bold ;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+}
+
+table {
+    background-color:white;
+    margin:50px auto;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px #7e7e7e;
+}
+

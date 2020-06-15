@@ -1,0 +1,81 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: top;
+    height:100vh;
+    overflow: hidden;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(116, 155, 255);
+    text-shadow: 0 0 5px white;
+}
+
+p {
+    font-size:25px;
+    color: rgb(15, 26, 80);
+}
+
+input {
+    margin-top:20px;
+    width:200px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid white;
+    font-size:20px;
+
+}
+
+button {
+    margin-top:20px;
+    width:200px;
+    color:white;
+    background: linear-gradient(to right, rgb(169, 196, 255), rgb(76, 76, 248));
+    border: none;
+    height: 40px;
+    border-radius:10px;
+    font-weight: bold;
+    font-size:25px;
+    line-height: 40px;
+}
+
+.button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+    margin-top:20px;
+    width:200px;
+    color:white;
+    background: linear-gradient(to right, rgb(169, 196, 255), rgb(76, 76, 248));
+    border: none;
+    height: 40px;
+    border-radius:10px;
+    font-weight: bold;
+    font-size:25px;
+    line-height: 40px;
+    margin:20px auto;
+
+}
