@@ -17,7 +17,6 @@ if(isset($_POST['titular']) && !empty($_POST['titular'])) {
 
     if($sql->rowCount() === 0) {
 
-        echo("row entrou");
         $sql = $pdo->prepare("INSERT INTO contas (titular, agencia, conta, senha) VALUES (:titular, :agencia, :conta, :senha) ");
         $sql->bindValue(':titular', $titular);
         $sql->bindValue(':agencia', $agencia);
