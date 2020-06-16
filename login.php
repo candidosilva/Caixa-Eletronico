@@ -4,7 +4,6 @@ require 'config.php';
 
 if(isset($_POST['agencia'])  && empty($_POST['agencia']) == false) {
 
-    echo("isset  ");
     $agencia = addslashes($_POST['agencia']);
     $conta = addslashes($_POST['conta']);
     $senha = addslashes($_POST['senha']);
@@ -15,22 +14,19 @@ if(isset($_POST['agencia'])  && empty($_POST['agencia']) == false) {
     $sql->bindValue(":senha", md5($senha));
     $sql->execute();
 
-    echo("execute  ");
 
     if( $sql->rowCount() > 0 ) {
 
-        echo("tem ususario  ");
 
         $sql = $sql->fetch();
 
         $_SESSION['banco'] = $sql['id'];
 
-        echo("fim  ");
 
         header("Location: index.php");
         exit;
     }
-} echo("não entrou nada");
+} 
 
 ?>
 
